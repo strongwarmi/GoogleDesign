@@ -1,0 +1,52 @@
+@import "gridSystem";
+body{
+  font-family: "Roboto",sans-serif;
+  color: #424242;
+  margin: 0 auto;
+}
+main img{
+  width: 100%;
+}
+h1,h6{
+  font-family: "Product Sans",sans-serif;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.center{
+  text-align: center;
+}
+.mt-25{
+  margin-top: 25px;
+}
+.container{
+  padding: 0 2%;
+}
+.border-top{
+  border-top: 4px solid #4285f4;
+}
+.roboto-mono{
+  font-family: "Roboto Mono",monospace;
+  color: #5f6368;
+  font-size: 16px;
+}
+header{
+  padding: 5% 0;
+  .menu{
+    list-style: none;
+    padding: 0;
+    &__item{
+      display: inline-block;
+      padding: 10px;
+      margin: 0 10px;
+      font-size: 14px;
+      color: #5f6368;
+      font-weight: 500;
+      position: relative;
+      cursor: pointer;
+      &--hover:hover{
+        border-bottom: 5px solid whitesmoke;
+      }
+    }
+  }
+}
